@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{1692D549-CDC7-48B3-B641-0B4F0C85694F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazar_Corina_Lab111", "Lazar_Corina_Lab111\Lazar_Corina_Lab111.csproj", "{E3A26253-0753-4FFB-B16B-DEF3399F52D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1692D549-CDC7-48B3-B641-0B4F0C85694F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1692D549-CDC7-48B3-B641-0B4F0C85694F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1692D549-CDC7-48B3-B641-0B4F0C85694F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1692D549-CDC7-48B3-B641-0B4F0C85694F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A26253-0753-4FFB-B16B-DEF3399F52D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A26253-0753-4FFB-B16B-DEF3399F52D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A26253-0753-4FFB-B16B-DEF3399F52D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A26253-0753-4FFB-B16B-DEF3399F52D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A693D1E2-C049-42F4-AF1A-D0810BE83476}
+	EndGlobalSection
+EndGlobal

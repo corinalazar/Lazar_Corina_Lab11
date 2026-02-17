@@ -1,0 +1,14 @@
+﻿@page
+@using Microsoft.AspNetCore.Authorization
+@model AutoService.Web.Pages.Admin.IndexModel
+@attribute [Authorize(Roles = "Admin")]
+
+<h2>Admin Panel</h2>
+
+<p>Bine ai venit, Admin!</p>
+
+<ul>
+    <li><a asp-page="/Admin/Users">Manage Users</a></li>
+    <li><a asp-page="/Vehicles/Index">Manage Vehicles</a></li>
+    <li><a asp-page="/Appointments/Index">Manage Appointments</a></li>
+</ul>

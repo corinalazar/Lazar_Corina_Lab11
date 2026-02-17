@@ -1,0 +1,38 @@
+﻿@page
+@model AutoService.Web.Pages.Vehicles.CreateModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h2>Create Vehicle</h2>
+
+<form method="post">
+
+    <div class="form-group">
+        <label asp-for="Vehicle.Brand"></label>
+        <input asp-for="Vehicle.Brand" class="form-control" />
+        <span asp-validation-for="Vehicle.Brand" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Vehicle.Model"></label>
+        <input asp-for="Vehicle.Model" class="form-control" />
+        <span asp-validation-for="Vehicle.Model" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Vehicle.Year"></label>
+        <input asp-for="Vehicle.Year" class="form-control" type="number" />
+        <span asp-validation-for="Vehicle.Year" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Vehicle.LicensePlate"></label>
+        <input asp-for="Vehicle.LicensePlate" class="form-control" />
+        <span asp-validation-for="Vehicle.LicensePlate" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
